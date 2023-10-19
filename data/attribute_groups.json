@@ -1,0 +1,1606 @@
+{
+  "AnimationEventAttributes": {
+    "name": "animation event attributes",
+    "bundle_name": "AnimationEventAttributes",
+    "attributes": [
+      {
+        "name": "onbegin",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnBeginEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onend",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnEndEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onrepeat",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnRepeatEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onload",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnLoadEventAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermAnimationEventAttribute",
+    "verified": false
+  },
+  "GraphicalEventAttributes": {
+    "name": "graphical event attributes",
+    "bundle_name": "GraphicalEventAttributes",
+    "attributes": [
+      {
+        "name": "onfocusin",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnFocusInEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onfocusout",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnFocusOutEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onactivate",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnActivateEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onclick",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnClickEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onmousedown",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnMouseDownEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onmouseup",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnMouseUpEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onmouseover",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnMouseOverEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onmousemove",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnMouseMoveEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onmouseout",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnMouseOutEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onload",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnLoadEventAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermGraphicalEventAttribute",
+    "verified": false
+  },
+  "AnimationValueAttributes": {
+    "name": "animation value attributes",
+    "bundle_name": "AnimationValueAttributes",
+    "attributes": [
+      {
+        "name": "calcMode",
+        "value": {
+          "raw": "\"discrete | linear | paced | spline\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#CalcModeAttribute",
+        "verified": false
+      },
+      {
+        "name": "values",
+        "value": {
+          "raw": "\"<list>\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#ValuesAttribute",
+        "verified": false
+      },
+      {
+        "name": "keyTimes",
+        "value": {
+          "raw": "\"<list>\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#KeyTimesAttribute",
+        "verified": false
+      },
+      {
+        "name": "keySplines",
+        "value": {
+          "raw": "\"<list>\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#KeySplinesAttribute",
+        "verified": false
+      },
+      {
+        "name": "from",
+        "value": {
+          "raw": "\"<value>\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#FromAttribute",
+        "verified": false
+      },
+      {
+        "name": "to",
+        "value": {
+          "raw": "\"<value>\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#ToAttribute",
+        "verified": false
+      },
+      {
+        "name": "by",
+        "value": {
+          "raw": "\"<value>\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#ByAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/animate.html#ValueAttributes",
+    "verified": false
+  },
+  "TransferFunctionElementAttributes": {
+    "name": "transfer function element attributes",
+    "bundle_name": "TransferFunctionElementAttributes",
+    "attributes": [
+      {
+        "name": "type",
+        "value": {
+          "raw": "identity | table | discrete | linear | gamma",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferTypeAttribute",
+        "verified": false
+      },
+      {
+        "name": "tableValues",
+        "value": {
+          "raw": "(list of",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferTableValuesAttribute",
+        "verified": false
+      },
+      {
+        "name": "slope",
+        "value": {
+          "raw": "<number>",
+          "ty": null,
+          "docs": "#types-DataTypeNumber",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferSlopeAttribute",
+        "verified": false
+      },
+      {
+        "name": "intercept",
+        "value": {
+          "raw": "<number>",
+          "ty": null,
+          "docs": "#types-DataTypeNumber",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferInterceptAttribute",
+        "verified": false
+      },
+      {
+        "name": "amplitude",
+        "value": {
+          "raw": "<number>",
+          "ty": null,
+          "docs": "#types-DataTypeNumber",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferAmplitudeAttribute",
+        "verified": false
+      },
+      {
+        "name": "exponent",
+        "value": {
+          "raw": "<number>",
+          "ty": null,
+          "docs": "#types-DataTypeNumber",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferExponentAttribute",
+        "verified": false
+      },
+      {
+        "name": "offset",
+        "value": {
+          "raw": "<number>",
+          "ty": null,
+          "docs": "#types-DataTypeNumber",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#feComponentTransferOffsetAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/filters.html#TransferFunctionElementAttributes",
+    "verified": false
+  },
+  "CoreAttributes": {
+    "name": "core attributes",
+    "bundle_name": "CoreAttributes",
+    "attributes": [
+      {
+        "name": "id",
+        "value": {
+          "raw": "name",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#IDAttribute",
+        "verified": false
+      },
+      {
+        "name": "xml:base",
+        "value": {
+          "raw": "<iri>",
+          "ty": null,
+          "docs": "#types-DataTypeIRI",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#XMLBaseAttribute",
+        "verified": false
+      },
+      {
+        "name": "xml:lang",
+        "value": {
+          "raw": "languageID",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#XMLLangAttribute",
+        "verified": false
+      },
+      {
+        "name": "xml:space",
+        "value": {
+          "raw": "{default | preserve}",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#XMLSpaceAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermCoreAttributes",
+    "verified": false
+  },
+  "FilterPrimitiveAttributes": {
+    "name": "filter primitive attributes",
+    "bundle_name": "FilterPrimitiveAttributes",
+    "attributes": [
+      {
+        "name": "x",
+        "value": {
+          "raw": "<coordinate>",
+          "ty": null,
+          "docs": "#types-DataTypeCoordinate",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FilterPrimitiveXAttribute",
+        "verified": false
+      },
+      {
+        "name": "y",
+        "value": {
+          "raw": "<coordinate>",
+          "ty": null,
+          "docs": "#types-DataTypeCoordinate",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FilterPrimitiveYAttribute",
+        "verified": false
+      },
+      {
+        "name": "width",
+        "value": {
+          "raw": "<length>",
+          "ty": null,
+          "docs": "#types-DataTypeLength",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FilterPrimitiveWidthAttribute",
+        "verified": false
+      },
+      {
+        "name": "height",
+        "value": {
+          "raw": "<length>",
+          "ty": null,
+          "docs": "#types-DataTypeLength",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FilterPrimitiveHeightAttribute",
+        "verified": false
+      },
+      {
+        "name": "result",
+        "value": {
+          "raw": "<filter-primitive-reference>",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FilterPrimitiveResultAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermFilterPrimitiveAttributes",
+    "verified": false
+  },
+  "PresentationAttributes": {
+    "name": "presentation attributes",
+    "bundle_name": "PresentationAttributes",
+    "attributes": [
+      {
+        "name": "alignment-baseline",
+        "value": {
+          "raw": "‘alignment-baseline’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#AlignmentBaselineProperty",
+        "verified": false
+      },
+      {
+        "name": "baseline-shift",
+        "value": {
+          "raw": "‘baseline-shift’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#BaselineShiftProperty",
+        "verified": false
+      },
+      {
+        "name": "clip",
+        "value": {
+          "raw": "‘clip’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/masking.html#ClipProperty",
+        "verified": false
+      },
+      {
+        "name": "clip-path",
+        "value": {
+          "raw": "‘clip-path’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/masking.html#ClipPathProperty",
+        "verified": false
+      },
+      {
+        "name": "clip-rule",
+        "value": {
+          "raw": "‘clip-rule’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/masking.html#ClipRuleProperty",
+        "verified": false
+      },
+      {
+        "name": "color",
+        "value": {
+          "raw": "<color> | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/color.html#ColorProperty",
+        "verified": false
+      },
+      {
+        "name": "color-interpolation",
+        "value": {
+          "raw": "‘color-interpolation’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#ColorInterpolationProperty",
+        "verified": false
+      },
+      {
+        "name": "color-interpolation-filters",
+        "value": {
+          "raw": "‘color-interpolation-filters’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#ColorInterpolationFiltersProperty",
+        "verified": false
+      },
+      {
+        "name": "color-profile",
+        "value": {
+          "raw": "auto | sRGB | <name> | <iri> | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/color.html#ColorProfileProperty",
+        "verified": false
+      },
+      {
+        "name": "color-rendering",
+        "value": {
+          "raw": "auto | optimizeSpeed | optimizeQuality | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#ColorRenderingProperty",
+        "verified": false
+      },
+      {
+        "name": "cursor",
+        "value": {
+          "raw": "[ [ <funciri> ,]* [ auto | crosshair | default | pointer | move | e-resize | ne-resize | nw-resize | n-resize | se-resize | sw-resize | s-resize | w-resize| text | wait | help ] ] | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/interact.html#CursorProperty",
+        "verified": false
+      },
+      {
+        "name": "direction",
+        "value": {
+          "raw": "‘direction’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#DirectionProperty",
+        "verified": false
+      },
+      {
+        "name": "display",
+        "value": {
+          "raw": "‘display’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#DisplayProperty",
+        "verified": false
+      },
+      {
+        "name": "dominant-baseline",
+        "value": {
+          "raw": "‘dominant-baseline’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#DominantBaselineProperty",
+        "verified": false
+      },
+      {
+        "name": "enable-background",
+        "value": {
+          "raw": "‘enable-background’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#EnableBackgroundProperty",
+        "verified": false
+      },
+      {
+        "name": "fill",
+        "value": {
+          "raw": "‘fill’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#FillProperty",
+        "verified": false
+      },
+      {
+        "name": "fill-opacity",
+        "value": {
+          "raw": "‘fill-opacity’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#FillOpacityProperty",
+        "verified": false
+      },
+      {
+        "name": "fill-rule",
+        "value": {
+          "raw": "‘fill-rule’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#FillRuleProperty",
+        "verified": false
+      },
+      {
+        "name": "filter",
+        "value": {
+          "raw": "<funciri> | none | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FilterProperty",
+        "verified": false
+      },
+      {
+        "name": "flood-color",
+        "value": {
+          "raw": "‘flood-color’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FloodColorProperty",
+        "verified": false
+      },
+      {
+        "name": "flood-opacity",
+        "value": {
+          "raw": "‘flood-opacity’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#FloodOpacityProperty",
+        "verified": false
+      },
+      {
+        "name": "font-family",
+        "value": {
+          "raw": "‘font-family’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontFamilyProperty",
+        "verified": false
+      },
+      {
+        "name": "font-size",
+        "value": {
+          "raw": "‘font-size’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontSizeProperty",
+        "verified": false
+      },
+      {
+        "name": "font-size-adjust",
+        "value": {
+          "raw": "‘font-size-adjust’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontSizeAdjustProperty",
+        "verified": false
+      },
+      {
+        "name": "font-stretch",
+        "value": {
+          "raw": "‘font-stretch’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontStretchProperty",
+        "verified": false
+      },
+      {
+        "name": "font-style",
+        "value": {
+          "raw": "‘font-style’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontStyleProperty",
+        "verified": false
+      },
+      {
+        "name": "font-variant",
+        "value": {
+          "raw": "‘font-variant’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontVariantProperty",
+        "verified": false
+      },
+      {
+        "name": "font-weight",
+        "value": {
+          "raw": "‘font-weight’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#FontWeightProperty",
+        "verified": false
+      },
+      {
+        "name": "glyph-orientation-horizontal",
+        "value": {
+          "raw": "‘glyph-orientation-horizontal’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#GlyphOrientationHorizontalProperty",
+        "verified": false
+      },
+      {
+        "name": "glyph-orientation-vertical",
+        "value": {
+          "raw": "‘glyph-orientation-vertical’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#GlyphOrientationVerticalProperty",
+        "verified": false
+      },
+      {
+        "name": "image-rendering",
+        "value": {
+          "raw": "auto | optimizeSpeed | optimizeQuality | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#ImageRenderingProperty",
+        "verified": false
+      },
+      {
+        "name": "kerning",
+        "value": {
+          "raw": "‘kerning’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#KerningProperty",
+        "verified": false
+      },
+      {
+        "name": "letter-spacing",
+        "value": {
+          "raw": "‘letter-spacing’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#LetterSpacingProperty",
+        "verified": false
+      },
+      {
+        "name": "lighting-color",
+        "value": {
+          "raw": "currentColor | <color> [ <icccolor> ] | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/filters.html#LightingColorProperty",
+        "verified": false
+      },
+      {
+        "name": "marker-end",
+        "value": {
+          "raw": "‘marker-end’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#MarkerEndProperty",
+        "verified": false
+      },
+      {
+        "name": "marker-mid",
+        "value": {
+          "raw": "‘marker-mid’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#MarkerMidProperty",
+        "verified": false
+      },
+      {
+        "name": "marker-start",
+        "value": {
+          "raw": "‘marker-start’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#MarkerStartProperty",
+        "verified": false
+      },
+      {
+        "name": "mask",
+        "value": {
+          "raw": "‘mask’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/masking.html#MaskProperty",
+        "verified": false
+      },
+      {
+        "name": "opacity",
+        "value": {
+          "raw": "‘opacity’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/masking.html#OpacityProperty",
+        "verified": false
+      },
+      {
+        "name": "overflow",
+        "value": {
+          "raw": "‘overflow’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/masking.html#OverflowProperty",
+        "verified": false
+      },
+      {
+        "name": "pointer-events",
+        "value": {
+          "raw": "visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | none | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty",
+        "verified": false
+      },
+      {
+        "name": "shape-rendering",
+        "value": {
+          "raw": "auto | optimizeSpeed | crispEdges | geometricPrecision | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#ShapeRenderingProperty",
+        "verified": false
+      },
+      {
+        "name": "stop-color",
+        "value": {
+          "raw": "‘stop-color’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/pservers.html#StopColorProperty",
+        "verified": false
+      },
+      {
+        "name": "stop-opacity",
+        "value": {
+          "raw": "‘stop-opacity’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/pservers.html#StopOpacityProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke",
+        "value": {
+          "raw": "‘stroke’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-dasharray",
+        "value": {
+          "raw": "‘stroke-dasharray’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeDasharrayProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-dashoffset",
+        "value": {
+          "raw": "‘stroke-dashoffset’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeDashoffsetProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-linecap",
+        "value": {
+          "raw": "‘stroke-linecap’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeLinecapProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-linejoin",
+        "value": {
+          "raw": "‘stroke-linejoin’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeLinejoinProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-miterlimit",
+        "value": {
+          "raw": "‘stroke-miterlimit’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeMiterlimitProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-opacity",
+        "value": {
+          "raw": "‘stroke-opacity’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeOpacityProperty",
+        "verified": false
+      },
+      {
+        "name": "stroke-width",
+        "value": {
+          "raw": "‘stroke-width’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#StrokeWidthProperty",
+        "verified": false
+      },
+      {
+        "name": "text-anchor",
+        "value": {
+          "raw": "‘text-anchor’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#TextAnchorProperty",
+        "verified": false
+      },
+      {
+        "name": "text-decoration",
+        "value": {
+          "raw": "‘text-decoration’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#TextDecorationProperty",
+        "verified": false
+      },
+      {
+        "name": "text-rendering",
+        "value": {
+          "raw": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision | inherit",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#TextRenderingProperty",
+        "verified": false
+      },
+      {
+        "name": "unicode-bidi",
+        "value": {
+          "raw": "‘unicode-bidi’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#UnicodeBidiProperty",
+        "verified": false
+      },
+      {
+        "name": "visibility",
+        "value": {
+          "raw": "‘visibility’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/painting.html#VisibilityProperty",
+        "verified": false
+      },
+      {
+        "name": "word-spacing",
+        "value": {
+          "raw": "‘word-spacing’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#WordSpacingProperty",
+        "verified": false
+      },
+      {
+        "name": "writing-mode",
+        "value": {
+          "raw": "‘writing-mode’",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/text.html#WritingModeProperty",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermPresentationAttribute",
+    "verified": false
+  },
+  "ConditionalProcessingAttributes": {
+    "name": "conditional processing attributes",
+    "bundle_name": "ConditionalProcessingAttributes",
+    "attributes": [
+      {
+        "name": "requiredFeatures",
+        "value": {
+          "raw": "list-of-features",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#RequiredFeaturesAttribute",
+        "verified": false
+      },
+      {
+        "name": "requiredExtensions",
+        "value": {
+          "raw": "list-of-extensions",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#RequiredExtensionsAttribute",
+        "verified": false
+      },
+      {
+        "name": "systemLanguage",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": null,
+          "guessed": true,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/struct.html#SystemLanguageAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermConditionalProcessingAttribute",
+    "verified": false
+  },
+  "XlinkAttributes": {
+    "name": "xlink attributes",
+    "bundle_name": "XlinkAttributes",
+    "attributes": [
+      {
+        "name": "xlink:href",
+        "value": {
+          "raw": "<IRI>",
+          "ty": null,
+          "docs": "#types-DataTypeIRI",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#AElementXLinkHrefAttribute",
+        "verified": false
+      },
+      {
+        "name": "xlink:show",
+        "value": {
+          "raw": "none",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#XLinkShowAttribute",
+        "verified": false
+      },
+      {
+        "name": "xlink:actuate",
+        "value": {
+          "raw": "\"onRequest\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#AElementXLinkActuateAttribute",
+        "verified": false
+      },
+      {
+        "name": "xlink:type",
+        "value": {
+          "raw": "simple",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#XLinkTypeAttribute",
+        "verified": false
+      },
+      {
+        "name": "xlink:role",
+        "value": {
+          "raw": "<IRI>",
+          "ty": null,
+          "docs": "#types-DataTypeIRI",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#XLinkRoleAttribute",
+        "verified": false
+      },
+      {
+        "name": "xlink:arcrole",
+        "value": {
+          "raw": "<IRI>",
+          "ty": null,
+          "docs": "#types-DataTypeIRI",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#XLinkArcRoleAttribute",
+        "verified": false
+      },
+      {
+        "name": "xlink:title",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/linking.html#XLinkTitleAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermXLinkAttributes",
+    "verified": false
+  },
+  "AnimationAttributeTargetAttributes": {
+    "name": "animation attribute target attributes",
+    "bundle_name": "AnimationAttributeTargetAttributes",
+    "attributes": [
+      {
+        "name": "attributeType",
+        "value": {
+          "raw": "CSS | XML | auto",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#AttributeTypeAttribute",
+        "verified": false
+      },
+      {
+        "name": "attributeName",
+        "value": {
+          "raw": "<attributeName>",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#AttributeNameAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/animate.html#TargetAttributes",
+    "verified": false
+  },
+  "AnimationTimingAttributes": {
+    "name": "animation timing attributes",
+    "bundle_name": "AnimationTimingAttributes",
+    "attributes": [
+      {
+        "name": "begin",
+        "value": {
+          "raw": "begin-value-list",
+          "ty": null,
+          "docs": "#animate-BeginValueListSyntax",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#BeginAttribute",
+        "verified": false
+      },
+      {
+        "name": "dur",
+        "value": {
+          "raw": "Clock-value",
+          "ty": null,
+          "docs": "#animate-ClockValueSyntax",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#DurAttribute",
+        "verified": false
+      },
+      {
+        "name": "end",
+        "value": {
+          "raw": "end-value-list",
+          "ty": null,
+          "docs": "#animate-EndValueListSyntax",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#EndAttribute",
+        "verified": false
+      },
+      {
+        "name": "min",
+        "value": {
+          "raw": "Clock-value",
+          "ty": null,
+          "docs": "#animate-ClockValueSyntax",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#MinAttribute",
+        "verified": false
+      },
+      {
+        "name": "max",
+        "value": {
+          "raw": "Clock-value",
+          "ty": null,
+          "docs": "#animate-ClockValueSyntax",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#MaxAttribute",
+        "verified": false
+      },
+      {
+        "name": "restart",
+        "value": {
+          "raw": "\"always\" | \"whenNotActive\" | \"never\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#RestartAttribute",
+        "verified": false
+      },
+      {
+        "name": "repeatCount",
+        "value": {
+          "raw": "numeric value | \"indefinite\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#RepeatCountAttribute",
+        "verified": false
+      },
+      {
+        "name": "repeatDur",
+        "value": {
+          "raw": "Clock-value",
+          "ty": null,
+          "docs": "#animate-ClockValueSyntax",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#RepeatDurAttribute",
+        "verified": false
+      },
+      {
+        "name": "fill",
+        "value": {
+          "raw": "\"freeze\" | \"remove\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#FillAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/animate.html#TimingAttributes",
+    "verified": false
+  },
+  "DocumentEventAttributes": {
+    "name": "document event attributes",
+    "bundle_name": "DocumentEventAttributes",
+    "attributes": [
+      {
+        "name": "onunload",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnUnloadEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onabort",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnAbortEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onerror",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnErrorEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onresize",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnResizeEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onscroll",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnScrollEventAttribute",
+        "verified": false
+      },
+      {
+        "name": "onzoom",
+        "value": {
+          "raw": "<anything>",
+          "ty": null,
+          "docs": "#types-DataTypeAnything",
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/script.html#OnZoomEventAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/intro.html#TermDocumentEventAttribute",
+    "verified": false
+  },
+  "AnimationAdditionAttributes": {
+    "name": "animation addition attributes",
+    "bundle_name": "AnimationAdditionAttributes",
+    "attributes": [
+      {
+        "name": "additive",
+        "value": {
+          "raw": "\"replace | sum\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#AdditiveAttribute",
+        "verified": false
+      },
+      {
+        "name": "accumulate",
+        "value": {
+          "raw": "\"none | sum\"",
+          "ty": null,
+          "docs": null,
+          "guessed": false,
+          "verified": false
+        },
+        "docs": "https://www.w3.org/TR/SVG11/animate.html#AccumulateAttribute",
+        "verified": false
+      }
+    ],
+    "docs": "https://www.w3.org/TR/SVG11/animate.html#AdditionAttributes",
+    "verified": false
+  }
+}

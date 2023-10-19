@@ -1,0 +1,25 @@
+[workspace]
+members = ["./spec-scraper"]
+default-members = []
+
+[package]
+name = "structuredvg"
+version = "0.1.0"
+edition = "2021"
+description = "Type safe SVG format AST"
+
+[features]
+default = ["html", "path", "read", "write"]
+
+html = []                  # Support for HTML attributes
+path = []                  # Structured path data
+events = []                # Event attributes
+read = ["dep:xmltree-rs"]  # Parsing SVG strings/files
+write = ["dep:xmltree-rs"] # Generation of SVG strings/files
+
+[dependencies]
+structuredvg_macros = { path = "./macros" }
+
+ordered-float = "4.1"
+
+xmltree-rs = { version = "0.10", features = ["attribute-order"] }
